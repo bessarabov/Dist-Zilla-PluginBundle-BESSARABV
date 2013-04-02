@@ -28,6 +28,11 @@ sub configure {
         # https://metacpan.org/module/Dist::Zilla::Plugin::GithubMeta
         [ 'GithubMeta' => { issues => 1 } ],
 
+        # https://metacpan.org/module/Dist::Zilla::Plugin::CheckChangesHasContent
+        # This is a great thing. It checks that I haven't forgotten to add
+        # info to my Changes file
+        'CheckChangesHasContent',
+
         # From [@Basic] - start
         'GatherDir',
         'PruneCruft',
@@ -90,11 +95,6 @@ sub configure {
 
             }
         ],
-
-        # https://metacpan.org/module/Dist::Zilla::Plugin::CheckChangesHasContent
-        # This is a great thing. It checks that I haven't forgotten to add
-        # info to my Changes file
-        'CheckChangesHasContent',
 
         # Actually ConfirmRelease in in [@Basic], but I've put it here so the
         # dzil asks for my input only in case eveything else is ok
