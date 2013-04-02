@@ -4,7 +4,7 @@ with 'Dist::Zilla::Role::PluginBundle::Easy';
 
 # ABSTRACT: configure Dist::Zilla the way BESSARABV does it
 
-=head2 DESCRIPTION
+=head1 DESCRIPTION
 
 In my dist.ini:
 
