@@ -2,3 +2,6 @@ Revision history for Dist::Zilla::PluginBundle::BESSARABV
 
 0.01    2013-03-29
         * First public release
+
+0.02    2013-04-02
+        * CheckChangesHasContent is done before asking for CPAN login/pass
