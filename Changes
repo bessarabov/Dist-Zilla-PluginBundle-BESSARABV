@@ -5,3 +5,7 @@ Revision history for Dist::Zilla::PluginBundle::BESSARABV
 
 0.02    2013-04-02
         * CheckChangesHasContent is done before asking for CPAN login/pass
+
+0.03    2013-04-30
+        * Added all needed dependencies
+        * Fixing heder level in main pm file
