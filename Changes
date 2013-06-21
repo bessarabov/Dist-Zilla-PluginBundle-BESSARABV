@@ -9,3 +9,6 @@ Revision history for Dist::Zilla::PluginBundle::BESSARABV
 0.03    2013-04-30
         * Added all needed dependencies
         * Fixing heder level in main pm file
+
+0.04    2013-06-21
+        * After `dzil release` creating tag without 'v'
