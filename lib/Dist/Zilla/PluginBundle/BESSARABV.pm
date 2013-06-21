@@ -103,7 +103,7 @@ sub configure {
         # Releaser
 
         # AfterRelease
-        [ 'Git::Tag' => { tag_format => 'v%v', tag_message => '' } ],
+        [ 'Git::Tag' => { tag_format => '%v', tag_message => '' } ],
 
         # TODO - I want to upload new tag to GitHub
     );
