@@ -18,6 +18,10 @@ In my dist.ini:
 
     [@BESSARABV]
 
+Dist::Zilla::PluginBundle::BESSARABV uses Semantic Versioning standart for
+version numbers. Please visit L<http://semver.org/> to find out all about this
+great thing.
+
 =cut
 
 sub configure {
