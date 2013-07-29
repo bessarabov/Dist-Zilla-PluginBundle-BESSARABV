@@ -55,6 +55,16 @@ sub configure {
 
         # FileGatherer
 
+        # ## Testing that Changes file is in right format
+        #
+        # I have decided to add this test after [Sergey Romanov's pull
+        # request][mock_person_pr]. And with [the help of Neil
+        # Bowers][changes_dzil_test] I have found this module.
+        #
+        #  [mock_person_pr]: https://github.com/bessarabov/Mock-Person/pull/3
+        #  [changes_dzil_test]: http://questhub.io/realm/perl/quest/51f5f0fa852fe91826000012
+        'Dist::Zilla::Plugin::Test::CPAN::Changes',
+
         # FilePruner
         'Git::ExcludeUntracked',
 
