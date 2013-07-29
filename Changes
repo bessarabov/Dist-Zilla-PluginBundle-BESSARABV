@@ -12,3 +12,8 @@ Revision history for Dist::Zilla::PluginBundle::BESSARABV
 
 0.04    2013-06-21
         * After `dzil release` creating tag without 'v'
+
+1.0.0   2013-07-29
+        [Major]
+        * Using SemVer for version numbers
+        * Added Dist::Zilla::Plugin::Test::CPAN::Changes
