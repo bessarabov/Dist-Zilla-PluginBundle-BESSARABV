@@ -67,7 +67,7 @@ sub configure {
         #
         #  [mock_person_pr]: https://github.com/bessarabov/Mock-Person/pull/3
         #  [changes_dzil_test]: http://questhub.io/realm/perl/quest/51f5f0fa852fe91826000012
-        'Dist::Zilla::Plugin::Test::CPAN::Changes',
+        'Test::CPAN::Changes',
 
         # FilePruner
         'Git::ExcludeUntracked',
