@@ -22,6 +22,14 @@ Dist::Zilla::PluginBundle::BESSARABV uses Semantic Versioning standart for
 version numbers. Please visit L<http://semver.org/> to find out all about this
 great thing.
 
+=head1 CONTRIBUTORS
+
+=over 4
+
+=item * Sergey Romanov (SROMANOV)
+
+=back
+
 =cut
 
 sub configure {
