@@ -17,3 +17,8 @@ Revision history for Dist::Zilla::PluginBundle::BESSARABV
         [Major]
         * Using SemVer for version numbers
         * Added Dist::Zilla::Plugin::Test::CPAN::Changes
+
+1.0.1   2013-08-22
+        [Patch]
+        * Fixing plugin specification
+        * Added file .travis.yml
