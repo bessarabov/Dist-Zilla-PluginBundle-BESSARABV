@@ -50,6 +50,7 @@ sub configure {
         'PruneCruft',
         'ManifestSkip',
         'MetaYAML',
+        'MetaJSON',
         'License',
         'ExtraTests',
         'ExecDir',
